@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <nav class="sidebar">
+    <a href="{{ '/' | relative_url }}">ホーム</a>
+    <a href="{{ '/about.html' | relative_url }}">プロフィール</a>
+    <a href="{{ '/projects.html' | relative_url }}">プロジェクト</a>
+    <a href="{{ '/contact.html' | relative_url }}">お問い合わせ</a>
+  </nav>
+
+  <main class="content">
+    {{ content }}
+  </main>
+</body>
+</html>
