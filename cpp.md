@@ -6,6 +6,7 @@ class Robot {
 
 };
 ```
+
 デフォルトではプライベート
 ```cpp
 public:
